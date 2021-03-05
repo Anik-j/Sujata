@@ -1,10 +1,17 @@
-this is the basics of httpsnldbkfnblkdfnbldknfbkdbnlkdfnvb;ldfjoidfjvkndfkvnidfuhvk
-evdffvnjd;nv;idovkdfv
-adjbnh;jdbkdnbiudb
-bdjbn;idsubhdhfjoiraekgoe
-gerrgerjrgoek
-g
-egekg'erg'er
-rgejgekrg
-er
-ggerigdklm
+create table emp(eno int,ename varchar(100),address varchar(100));
+insert into emp values(1,"ram","delhi");
+insert into emp values(2,"varun","chand");
+insert into emp values(3,"ravi","chand");
+insert into emp values(4,"ahjsghuierhngvehgeuirmrit","delhi");
+insert into emp values(5,"nitin","noida");
+
+select *from emp;
+
+create table dep(eno int,name varchar(100),deptno varchar(100));
+insert into dep values(1,"hr","d1");
+insert into dep values(2,"it","d2");
+insert into dep values(3,"finance","d3");
+insert into dep values(4,"account","d4");
+
+
+select *from dep;
