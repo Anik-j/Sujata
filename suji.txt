@@ -2,7 +2,11 @@ create table emp(eno int,ename varchar(100),address varchar(100));
 insert into emp values(1,"ram","delhi");
 insert into emp values(2,"varun","chand");
 insert into emp values(3,"ravi","chand");
+<<<<<<< HEAD
 insert into emp values(4,"amrit","delhi");
+=======
+insert into emp values(4,"ahjsghuierhngvehgeuirmrit","delhi");
+>>>>>>> shashikant
 insert into emp values(5,"nitin","noida");
 
 select *from emp;
